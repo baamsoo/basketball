@@ -2,7 +2,7 @@ import streamlit as st
 from widget.player_list import get_player_list
 from widget.player_detail import get_player_detail
 
-st.title("신대방삼거리 3대맛집")
+st.title("농구")
 
 p = st.selectbox("**POSITION**", ["GUARD", "FORWARD", "CENTER"])
 
